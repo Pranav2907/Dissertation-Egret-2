@@ -1,5 +1,5 @@
-# Egret
-Enhancing Generic Reaction Yield Prediction through Reaction Condition-Based Contrastive Learning
+# Egret - 2 
+Enhancing Generic Reaction Yield Prediction by Adding Temperature to existing Egret Model
 
 ![Egret](./dataset/model_framework_.png)
 
@@ -18,22 +18,18 @@ This repository has been tested on **Linux**  operating systems.
 * RDKit (version >= 2020)
 * Transformers (version == 4.18.0)
 * Simpletransformers (version == 0.61.13)
+* rxnfp (Use custom rxnfp)
 
 ## Installation Guide
 Create a virtual environment to run the code of Egret.<br>
 Make sure to install pytorch with the cuda version that fits your device.<br>
 This process usually takes few munites to complete.<br>
 ```
-git clone https://github.com/xiaodanyin/Egret.git
+git clone https://github.com/Pranav2907/Dissertation-Egret-2.git
 cd Egret
 conda env create -f envs.yaml
 conda activate egret_env
 ```
-## Download
-The **models** and **datasets** can be downloaded from the following link: https://drive.google.com/file/d/1K_EVByx5Vul5HuO3z_tWiVwVm37_jxPa/view?usp=sharing.
-
-## Use Egret
-You can use Egret to predict yields or  yield intervals for chemical reactions. **First** download the yield prediction model (https://drive.google.com/file/d/1MNzGyMYtNDt-TshKtsJkEEjHGtXTJhLN/view?usp=sharing) and place it under the "yield_prediction_model" folder. **Then** prepare the txt file containing the SMILES of the reaction you want to predict, and enter the following command:<br>
 ```
 cd inference
 python yield_predict.py --input_path path/to/input_file.txt \
