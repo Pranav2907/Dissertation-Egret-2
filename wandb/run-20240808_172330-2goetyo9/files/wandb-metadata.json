@@ -1,0 +1,79 @@
+{
+    "os": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-debian-bookworm-sid",
+    "python": "3.7.15",
+    "heartbeatAt": "2024-08-08T16:23:32.440288",
+    "startedAt": "2024-08-08T16:23:30.254875",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "egret_pretrain_stage_1.py",
+    "codePath": "egret_pretrain_stage_1.py",
+    "host": "PranavAI",
+    "username": "pranav-g",
+    "executable": "/home/pranav-g/anaconda3/envs/egret_env/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2496.008,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.008,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 39.5107421875
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.646514892578125
+    }
+}

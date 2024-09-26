@@ -1,0 +1,111 @@
+{
+    "os": "Linux-6.8.0-39-generic-x86_64-with-debian-trixie-sid",
+    "python": "3.7.15",
+    "heartbeatAt": "2024-08-06T20:09:07.103544",
+    "startedAt": "2024-08-06T20:09:06.376362",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "egret_pretrain_stage_1.py",
+    "codePath": "egret_pretrain_stage_1.py",
+    "host": "PranavG",
+    "username": "pranav",
+    "executable": "/home/pranav/anaconda3/envs/parrot_env/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2045.066875,
+        "min": 400.0,
+        "max": 4768.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2080.274,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 3551.565,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 4674.693,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 2334.442,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 2342.629,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 1970.541,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 2029.103,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 2075.792,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 2079.311,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 2343.236,
+            "min": 400.0,
+            "max": 4768.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4768.0
+        }
+    ],
+    "disk": {
+        "total": 95.56452178955078,
+        "used": 81.38310623168945
+    },
+    "memory": {
+        "total": 11.446693420410156
+    }
+}

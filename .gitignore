@@ -1,0 +1,11 @@
+outputs/*
+dataset/pretrain_data/*
+preprocess_script/reaxys_data/rxn_classification
+inference/yield_prediction_model
+!*.keep
+*.pyc
+.vscode
+*.tsv
+*.csv
+*.zip
+__pycache__

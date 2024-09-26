@@ -1,0 +1,50 @@
+2024-08-06 21:09:06,385 INFO    StreamThr :27432 [internal.py:wandb_internal():90] W&B internal server running at pid: 27432, started at: 2024-08-06 21:09:06.385081
+2024-08-06 21:09:06,389 DEBUG   HandlerThread:27432 [handler.py:handle_request():139] handle_request: status
+2024-08-06 21:09:06,389 DEBUG   SenderThread:27432 [sender.py:send_request():317] send_request: status
+2024-08-06 21:09:06,391 DEBUG   SenderThread:27432 [sender.py:send():303] send: header
+2024-08-06 21:09:06,391 DEBUG   SenderThread:27432 [sender.py:send():303] send: run
+2024-08-06 21:09:06,396 INFO    WriterThread:27432 [datastore.py:open_for_write():75] open: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/run-1d409j8i.wandb
+2024-08-06 21:09:06,965 DEBUG   HandlerThread:27432 [handler.py:handle_request():139] handle_request: check_version
+2024-08-06 21:09:06,966 INFO    SenderThread:27432 [dir_watcher.py:__init__():216] watching files in: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files
+2024-08-06 21:09:06,967 INFO    SenderThread:27432 [sender.py:_start_run_threads():931] run started: 1d409j8i with start time 1722974946.381626
+2024-08-06 21:09:06,967 DEBUG   SenderThread:27432 [sender.py:send():303] send: summary
+2024-08-06 21:09:06,967 INFO    SenderThread:27432 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-08-06 21:09:06,967 DEBUG   SenderThread:27432 [sender.py:send_request():317] send_request: check_version
+2024-08-06 21:09:07,094 DEBUG   HandlerThread:27432 [handler.py:handle_request():139] handle_request: run_start
+2024-08-06 21:09:07,095 DEBUG   HandlerThread:27432 [system_info.py:__init__():31] System info init
+2024-08-06 21:09:07,095 DEBUG   HandlerThread:27432 [system_info.py:__init__():46] System info init done
+2024-08-06 21:09:07,096 INFO    HandlerThread:27432 [system_monitor.py:start():150] Starting system monitor
+2024-08-06 21:09:07,096 INFO    SystemMonitor:27432 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-08-06 21:09:07,096 INFO    HandlerThread:27432 [system_monitor.py:probe():171] Collecting system info
+2024-08-06 21:09:07,096 INFO    SystemMonitor:27432 [interfaces.py:start():168] Started cpu
+2024-08-06 21:09:07,097 INFO    SystemMonitor:27432 [interfaces.py:start():168] Started disk
+2024-08-06 21:09:07,097 INFO    SystemMonitor:27432 [interfaces.py:start():168] Started memory
+2024-08-06 21:09:07,098 INFO    SystemMonitor:27432 [interfaces.py:start():168] Started network
+2024-08-06 21:09:07,103 DEBUG   HandlerThread:27432 [system_info.py:probe():195] Probing system
+2024-08-06 21:09:07,112 DEBUG   HandlerThread:27432 [git.py:repo():40] git repository is invalid
+2024-08-06 21:09:07,112 DEBUG   HandlerThread:27432 [system_info.py:probe():241] Probing system done
+2024-08-06 21:09:07,112 DEBUG   HandlerThread:27432 [system_monitor.py:probe():180] {'os': 'Linux-6.8.0-39-generic-x86_64-with-debian-trixie-sid', 'python': '3.7.15', 'heartbeatAt': '2024-08-06T20:09:07.103544', 'startedAt': '2024-08-06T20:09:06.376362', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'egret_pretrain_stage_1.py', 'codePath': 'egret_pretrain_stage_1.py', 'host': 'PranavG', 'username': 'pranav', 'executable': '/home/pranav/anaconda3/envs/parrot_env/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2045.066875, 'min': 400.0, 'max': 4768.0}, 'cpu_freq_per_core': [{'current': 2080.274, 'min': 400.0, 'max': 4768.0}, {'current': 400.0, 'min': 400.0, 'max': 4768.0}, {'current': 3551.565, 'min': 400.0, 'max': 4768.0}, {'current': 4674.693, 'min': 400.0, 'max': 4768.0}, {'current': 400.0, 'min': 400.0, 'max': 4768.0}, {'current': 2334.442, 'min': 400.0, 'max': 4768.0}, {'current': 2342.629, 'min': 400.0, 'max': 4768.0}, {'current': 1970.541, 'min': 400.0, 'max': 4768.0}, {'current': 2029.103, 'min': 400.0, 'max': 4768.0}, {'current': 400.0, 'min': 400.0, 'max': 4768.0}, {'current': 400.0, 'min': 400.0, 'max': 4768.0}, {'current': 2075.792, 'min': 400.0, 'max': 4768.0}, {'current': 2079.311, 'min': 400.0, 'max': 4768.0}, {'current': 400.0, 'min': 400.0, 'max': 4768.0}, {'current': 2343.236, 'min': 400.0, 'max': 4768.0}, {'current': 400.0, 'min': 400.0, 'max': 4768.0}], 'disk': {'total': 95.56452178955078, 'used': 81.38310623168945}, 'memory': {'total': 11.446693420410156}}
+2024-08-06 21:09:07,112 INFO    HandlerThread:27432 [system_monitor.py:probe():181] Finished collecting system info
+2024-08-06 21:09:07,112 INFO    HandlerThread:27432 [system_monitor.py:probe():184] Publishing system info
+2024-08-06 21:09:07,112 DEBUG   HandlerThread:27432 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-08-06 21:09:07,113 DEBUG   HandlerThread:27432 [system_info.py:_save_pip():67] Saving pip packages done
+2024-08-06 21:09:07,113 DEBUG   HandlerThread:27432 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-08-06 21:09:07,968 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/wandb-summary.json
+2024-08-06 21:09:07,969 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/requirements.txt
+2024-08-06 21:09:07,969 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/conda-environment.yaml
+2024-08-06 21:09:08,568 DEBUG   HandlerThread:27432 [system_info.py:_save_conda():86] Saving conda packages done
+2024-08-06 21:09:08,569 INFO    HandlerThread:27432 [system_monitor.py:probe():186] Finished publishing system info
+2024-08-06 21:09:08,711 DEBUG   SenderThread:27432 [sender.py:send():303] send: files
+2024-08-06 21:09:08,711 INFO    SenderThread:27432 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2024-08-06 21:09:08,716 DEBUG   HandlerThread:27432 [handler.py:handle_request():139] handle_request: stop_status
+2024-08-06 21:09:08,716 DEBUG   SenderThread:27432 [sender.py:send_request():317] send_request: stop_status
+2024-08-06 21:09:08,940 DEBUG   SenderThread:27432 [sender.py:send():303] send: telemetry
+2024-08-06 21:09:08,940 DEBUG   SenderThread:27432 [sender.py:send():303] send: telemetry
+2024-08-06 21:09:08,940 DEBUG   SenderThread:27432 [sender.py:send():303] send: telemetry
+2024-08-06 21:09:08,971 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/conda-environment.yaml
+2024-08-06 21:09:08,971 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/wandb-metadata.json
+2024-08-06 21:09:08,972 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/output.log
+2024-08-06 21:09:09,330 INFO    Thread-16 :27432 [upload_job.py:push():143] Uploaded file /tmp/tmpvxt1fiyxwandb/1euta1gn-wandb-metadata.json
+2024-08-06 21:09:10,971 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/output.log
+2024-08-06 21:09:12,972 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/output.log
+2024-08-06 21:09:14,973 INFO    Thread-13 :27432 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pranav/Egret/wandb/run-20240806_210906-1d409j8i/files/output.log

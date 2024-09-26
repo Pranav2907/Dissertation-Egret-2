@@ -1,0 +1,8 @@
+Debug: False
+Split group: 4
+Group number: 3
+GPU index: 1
+Traceback (most recent call last):
+  File "2.0.clean_up_rxn_condition.py", line 122, in <module>
+    rxn_mapper = RXNMapper(device=device)
+TypeError: __init__() got an unexpected keyword argument 'device'
