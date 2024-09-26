@@ -2,6 +2,8 @@
 Enhancing Generic Reaction Yield Prediction by Adding Temperature to existing Egret Model
 
 ![Egret](./dataset/model_framework_MLM.jpg)
+![Egret](./dataset/model_framework_.jpg)
+
 ## Contents
 - [OS Requirements](#os-requirements)
 - [Python Dependencies](#python-dependencies)
