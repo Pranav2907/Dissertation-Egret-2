@@ -31,6 +31,7 @@ cd Egret
 conda env create -f envs.yaml
 conda activate egret_env
 ```
+To train the model from scratch download datasets from the drive link.
 ```
 cd inference
 python yield_predict.py --input_path path/to/input_file.txt \
