@@ -1,0 +1,1 @@
+Cl.O=P(Cl)(Cl)Cl.O=S(=O)(O)c1cccnc1.ClP(Cl)(Cl)(Cl)Cl.O=P(Cl)(Cl)Cl|25>>Cl.O=S(=O)(Cl)c1cccnc1

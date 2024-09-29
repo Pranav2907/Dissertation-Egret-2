@@ -110,9 +110,12 @@ class RegexTokenizer:
         Returns:
             extracted tokens separated by spaces.
         """
-        tokens = [token for token in self.regex.findall(text)]
-        return tokens
-
+        if '|' in text:
+            text, extra = text.split('|', 1)
+            tokens = self.regex.findall(text) + ['|'] + extra.split()
+        else:
+            tokens = self.regex.findall(text)
+        return tokens    
 
 # Cell
 class NotCanonicalizableSmilesException(ValueError):
@@ -151,3 +154,4 @@ def process_reaction(rxn):
     joined_precursors = ".".join(sorted(precursors))
     joined_products = ".".join(sorted(products))
     return f"{joined_precursors}>>{joined_products}"
+
